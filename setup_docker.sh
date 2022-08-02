@@ -95,7 +95,7 @@ startDocker(){
     mac_vlan_name=$6
     mac_addr=$7
     echo "mac addr ($mac_addr)"
-    docker pull registry.cn-hangzhou.aliyuncs.com/tiptime/ttnode:latest
+    docker pull tiptime/ttnode
     docker run -d \
     -v $cache_dir:/mnt/data/ttnode \
     -v /var/run/docker.sock:/var/run/docker.sock \
@@ -105,7 +105,7 @@ startDocker(){
     --restart=always \
     --memory=$memory \
     --cpus=$cpus \
-    registry.cn-hangzhou.aliyuncs.com/tiptime/ttnode:latest
+    tiptime/ttnode
 }
 
 # 创建 maclvan 网络
