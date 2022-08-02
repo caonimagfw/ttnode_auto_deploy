@@ -83,7 +83,7 @@ then
 fi
 
 
-
+#    --privileged=true \
 startDocker(){
 #      1
 #    $cache_dir $name $host_name $memory $cpus $mac_vlan_name $mac_addr
@@ -103,7 +103,6 @@ startDocker(){
     --hostname $host_name \
     --net=$mac_vlan_name --mac-address $mac_addr \
     --restart=always \
-    --privileged=true \
     --memory=$memory \
     --cpus=$cpus \
     registry.cn-hangzhou.aliyuncs.com/tiptime/ttnode:latest
