@@ -73,7 +73,7 @@ sudo docker run -d \
 
 二、 通过脚本部署 maclvan 模式（支持多实例）
 ```
-wget https://gitee.com/jimyfar/ttnode_auto_deploy/raw/master/setup_docker.sh
+wget https://github.com/caonimagfw/ttnode_auto_deploy/raw/main/setup_docker.sh
 sudo chmod +x setup_docker.sh
 ```
 ### 第一次运行
