@@ -1,0 +1,4 @@
+#!/bin/bash
+cd /usr/node
+nohup ./ttnode_manager &
+exit 0

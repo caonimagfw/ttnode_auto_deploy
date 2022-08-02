@@ -1,0 +1,4 @@
+0.1.5
+https://gitee.com/shenzhen-sweet-sugar/download/attach_files/1104904/download/ttnode_arm32_eglibc_v355.zip
+https://gitee.com/shenzhen-sweet-sugar/download/attach_files/1104906/download/ttnode_arm64_gnu_v355.zip
+https://gitee.com/shenzhen-sweet-sugar/download/attach_files/1104907/download/ttnode_x86-64_glibc_v355.zip
